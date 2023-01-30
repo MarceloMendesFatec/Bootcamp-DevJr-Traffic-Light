@@ -1,0 +1,70 @@
+body{
+    background-color: #000;
+
+}
+
+
+button{
+
+    background-color: #1D0C1F;
+    color: #ffffff ;
+    cursor: pointer;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 1rem;
+
+}
+
+.container{
+    background-color: #FFEBCF ;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin: auto;
+}
+
+.trafficLight{
+    width: 100px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+
+}
+
+.grayArea{
+    display: flex;
+    flex-direction: column;
+    background-color: #828182;
+    margin: 0.5rem;
+    row-gap: 20px;
+    padding: 5px;
+}
+
+.light{
+    width: 50px;
+    height: 50px;
+    background-color: #3f3f3f;
+    margin: auto; 
+    border-color: #000;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 50%;
+
+}
+
+
+.lightRed{
+    background-color: #ff0000;
+}
+
+.lightYellow{
+    background-color: #FFFF00;
+}
+
+.lightGreen{
+    background-color: #00FF00;
+}
+
